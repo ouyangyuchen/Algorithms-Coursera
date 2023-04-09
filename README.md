@@ -17,3 +17,4 @@ Programming homeworks completed in the algorithm courses on Coursera.
 |[Collinear Points](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php)|sorting, geometric application|96|
 |[8 Puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)|A\* algorithm, priority queue|95|
 |[KD Trees](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php)|binary search, geometric application|100|
+|[WordNet](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php)|bfs, directed acyclic graph|100|
