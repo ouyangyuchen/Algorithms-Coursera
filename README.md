@@ -18,3 +18,4 @@ Programming homeworks completed in the algorithm courses on Coursera.
 |[8 Puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)|A\* algorithm, priority queue|95|
 |[KD Trees](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php)|binary search, geometric application|100|
 |[WordNet](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php)|bfs, directed acyclic graph|100|
+|[Seam Carving](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)|directed acyclic graph, shortest path, image resizing|100|
