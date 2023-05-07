@@ -21,3 +21,4 @@ Programming homeworks completed in the algorithm courses on Coursera.
 |[Seam Carving](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)|directed acyclic graph, shortest path, image resizing|100|
 |[Baseball Elimination](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php)|graph, maxflow and mincut|100|
 |[Boggle](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php)|trie, dfs|100|
+|[Burrows-Wheeler](https://coursera.cs.princeton.edu/algs4/assignments/burrows/specification.php)|data compression, key-index counting|100|
