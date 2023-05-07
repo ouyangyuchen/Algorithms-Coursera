@@ -22,11 +22,11 @@ public class FastCollinearPoints {
         n = points.length;
         for (Point p : points)
             if (p == null) throw new IllegalArgumentException();        // no null point
+        points = Arrays.copyOf(points, n);
         Arrays.sort(points);
         for (int i = 1; i < n; i++)
             if (points[i].compareTo(points[i - 1]) == 0)
                 throw new IllegalArgumentException();       // no repeated points
-        if (n < 4) return;
 
         // take any point[i] as origin, determine whether point is in the 4-point line
         res = new ArrayList<>(0);

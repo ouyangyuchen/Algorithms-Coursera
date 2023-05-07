@@ -1,15 +1,9 @@
-/* *****************************************************************************
- *  Name:              Alan Turing
- *  Coursera User ID:  123456
- *  Last modified:     1/1/2019
- **************************************************************************** */
-
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
-    private final int[][] neighbors = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
-    private int[][] grid;
+    private static final int[][] NEIGHBORS = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
+    private boolean[][] grid;
     private int N, opensites;
     private WeightedQuickUnionUF uf, uf2;
 
@@ -17,7 +11,7 @@ public class Percolation {
     public Percolation(int n) {
         if (n <= 0)
             throw new IllegalArgumentException();
-        grid = new int[n][n];
+        grid = new boolean[n][n];
         N = n;
         opensites = 0;
         uf = new WeightedQuickUnionUF(N * N + 2);
@@ -29,7 +23,7 @@ public class Percolation {
         checkValid(row, col);
         if (!isOpen(row, col)) {
             // get indices of neighbor sites
-            for (int[] temp : neighbors) {
+            for (int[] temp : NEIGHBORS) {
                 int x = temp[0] + row, y = temp[1] + col;
                 try {
                     if (isOpen(x, y)) {
@@ -46,7 +40,7 @@ public class Percolation {
             }
             if (row == N) uf.union(N * N + 1, to1d(N, col));
             // open the current site
-            grid[row - 1][col - 1] = 1;
+            grid[row - 1][col - 1] = true;
             opensites++;
         }
     }
@@ -54,7 +48,7 @@ public class Percolation {
     // is the site (row, col) open?
     public boolean isOpen(int row, int col) {
         checkValid(row, col);
-        return grid[row - 1][col - 1] == 1;
+        return grid[row - 1][col - 1];
     }
 
     // is the site (row, col) full?

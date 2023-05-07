@@ -12,10 +12,10 @@ Programming homeworks completed in the algorithm courses on Coursera.
 ## Projects list
 |project specification|related data structures or algorithms|my score|
 |---|---|---|
-|[Percolation](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)|disjoint set, union-find, Monte Carlo simulation|95|
-|[Queues](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php)|array, linked list, random shuffle|95|
-|[Collinear Points](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php)|sorting, geometric application|96|
-|[8 Puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)|A\* algorithm, priority queue|95|
+|[Percolation](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php)|disjoint set, union-find, Monte Carlo simulation|100|
+|[Queues](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php)|array, linked list, random shuffle|95 (memory, circular array implementation)|
+|[Collinear Points](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php)|sorting, geometric application|100|
+|[8 Puzzle](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)|A\* algorithm, priority queue|96 (time, no stricter caching)|
 |[KD Trees](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php)|binary search, geometric application|100|
 |[WordNet](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php)|bfs, directed acyclic graph|100|
 |[Seam Carving](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)|directed acyclic graph, shortest path, image resizing|100|

@@ -9,7 +9,6 @@ public class Board {
     // create a board from an n-by-n array of tiles,
     // where tiles[row][col] = tile at (row, col)
     public Board(int[][] tiles) {
-        // checkValid(tiles);                      // O(N^2)
         n = tiles.length;
         board = new int[n][n];
         for (int i = 0; i < n; i++)
@@ -22,21 +21,6 @@ public class Board {
                 if (d > 0) hamming++;
             }
         }
-    }
-
-    private void checkValid(int[][] tiles) {
-        if (tiles == null || tiles.length < 2) throw new IllegalArgumentException();
-        if (tiles.length != tiles[0].length) throw new IllegalArgumentException();
-        int dim = tiles.length;
-        boolean[] visited = new boolean[dim * dim];
-        for (int i = 0; i < dim; i++)
-            for (int j = 0; j < dim; j++) {
-                int num = tiles[i][j];
-                if (num >= 0 && num < dim * dim && !visited[num])
-                    visited[num] = true;
-                else
-                    throw new IllegalArgumentException();
-            }
     }
 
     // string representation of this board
@@ -130,9 +114,4 @@ public class Board {
         }
         return null;
     }
-
-    // unit testing (not graded)
-    public static void main(String[] args) {
-    }
-
 }
