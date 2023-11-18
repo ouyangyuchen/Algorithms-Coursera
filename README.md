@@ -6,7 +6,7 @@ Programming homeworks completed in the algorithm courses on Coursera.
 - *study time*: 2023 Spring
 - *course homepage*: [Algorithms I](https://www.coursera.org/learn/algorithms-part1), [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-## Useful links
+## References
 - Online textbook: [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
 
 ## Projects list
